@@ -8,11 +8,11 @@
     tools:context=".MainActivity">
 
     <com.mikhaellopez.circularimageview.CircularImageView
-        android:layout_width="181dp"
-        android:layout_height="160dp"
+        android:layout_width="254dp"
+        android:layout_height="203dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="74dp"
-        android:layout_marginEnd="62dp"
+        android:layout_marginEnd="48dp"
         android:src="@drawable/album_art"
         app:civ_border_color="#F06292"
         app:civ_border_width="5dp"
@@ -21,13 +21,13 @@
         />
 
     <Button
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/circularImageView"
         android:layout_centerInParent="true"
         android:layout_marginStart="-6dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="105dp"
         android:layout_marginBottom="181dp"
         android:background="@drawable/play" />
-</RelativeLayout
+</RelativeLayout>
